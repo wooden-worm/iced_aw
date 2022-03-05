@@ -50,12 +50,12 @@ default = [
 ]
 
 [dependencies]
-iced_style = { git = "https://github.com/wooden-worm/iced.git", rev = "39b1da9" }
+iced_style = { git = "https://github.com/wooden-worm/iced", rev = "39b1da9" }
 num-traits = { version = "0.2.14", optional = true }
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
-iced_native = { git = "https://github.com/wooden-worm/iced.git", rev = "39b1da9" }
-iced_graphics = { git = "https://github.com/wooden-worm/iced.git", rev = "39b1da9" }
+iced_native = { git = "https://github.com/wooden-worm/iced", rev = "39b1da9" }
+iced_graphics = { git = "https://github.com/wooden-worm/iced", rev = "39b1da9" }
 chrono = { version = "0.4.19", optional = true }
 lazy_static = { version = "1.4.0", optional = true }
 
